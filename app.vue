@@ -4,7 +4,7 @@ const description
 const ogTitle = '晓寒月色'
 const image
   = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
-const mySite = 'https://xiaohanys.vercel.app/'
+const mySite = 'https://www.xiaohanyuese.top'
 useHead({
   htmlAttrs: {
     lang: 'en',

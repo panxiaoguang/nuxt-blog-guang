@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     strictNuxtContentPaths: true,
   },
   site: {
-    url: 'https://blog.nurriyad.xyz',
+    url: 'https://www.xiaohanyuese.top',
   },
 
   typescript: {
