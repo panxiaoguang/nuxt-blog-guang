@@ -45,8 +45,8 @@ useHead({
 </script>
 
 <template>
-  <main class="px-6 container mx-auto">
-    <header class="max-w-5xl mx-auto">
+  <main class="px-6 container mx-auto max-w-5xl">
+    <header>
       <h1 class="text-xl md:text-3xl lg:text-4xl m-7 font-bold text-center">
         {{ data.title || '' }}
       </h1>
@@ -70,28 +70,26 @@ useHead({
         </div>
       </div>
     </header>
-    <div class="sm:grid grid-cols-12 max-w-7xl container">
-      <div
-        class="col-span-12 prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline  mx-auto prose-zinc prose-img:rounded-lg">
-        <ContentRenderer :value="articles">
-          <template #empty>
-            <p>No content found.</p>
-          </template>
-        </ContentRenderer>
-      </div>
-      <div class="fixed top-36 left-16 max-w-[200px] max-h-80 overflow-y-scroll hidden sm:block">
-        <div class="pb-2" v-if="tocs && tocs.links">
-          <h3 class="text-lg">文章索引：</h3>
+    <div
+      class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-3xl mx-auto prose-zinc prose-img:rounded-lg prose-img:mx-auto">
+      <ContentRenderer :value="articles">
+        <template #empty>
+          <p>No content found.</p>
+        </template>
+      </ContentRenderer>
+      </div>  
+      <div class="fixed top-36 left-16 max-w-[200px] max-h-[500px] overflow-y-scroll hidden sm:block">
+        <div v-if="tocs && tocs.links">
+          <h3>文章索引：</h3>
         </div>
-        <ul v-if="tocs && tocs.links" class="list-disc">
+        <ol v-if="tocs && tocs.links" class="list-decimal">
           <li v-for="link in tocs.links" :key="link.text">
-            <a :href="`#${link.id}`" class="text-slate-400 hover:text-sky-400">
+            <a :href="`#${link.id}`" class="text-sm text-slate-400 hover:text-sky-400">
               {{ link.text }}
             </a>
           </li>
-        </ul>
+        </ol>
       </div>
-    </div>
   </main>
 </template>
 

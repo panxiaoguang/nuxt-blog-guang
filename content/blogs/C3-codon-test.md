@@ -12,7 +12,9 @@ published: true
 ### 摘要
 
 成对的reads中，read_2的开头包含两份barcode序列，分别长10bp,中间有一段固定长度为15bp的序列分割，例如
-`ATCTATGACATGTTACGTTAACTCCNATCTATCACTTAGCGCTGNCCCTGTCCTCTACACTCCACCCCCTCCCCACCAGACTAAACAACGCCCTTTCCCC`
+```
+ATCTATGACATGTTACGTTAACTCCNATCTATCACTTAGCGCTGNCCCTGTCCTCTACACTCCACCCCCTCCCCACCAGACTAAACAACGCCCTTTCCCC
+```
 
 该序列中`ATTTATGACA`及`AATCTATCAA`为barcode序列。要注意，barcode因为测序的原因存在一定的错配，需要对其有一定的容纳。
 
@@ -105,10 +107,14 @@ def split_barcodes(fq1:str,fq2:str, barcodes: List[Tuple[str,str]]):
 ### 编译成本地代码
 
 下载codon编译器
-`/bin/bash -c "$(curl -fsSL https://exaloop.io/install.sh)"`
+```bash
+/bin/bash -c "$(curl -fsSL https://exaloop.io/install.sh)"
+```
 
 然后执行编译
-`codon build -release -o split_barcode split_barcodes.codon`
+```bash
+codon build -release -o split_barcode split_barcodes.codon
+```
 
 ### 总结
 

@@ -36,7 +36,8 @@ def parse_gzip_py(ris_file):
 399 ms +/- 1.91 ms per loop
 ```
 
-### Julia 里面有两个解析Gzip的包，分别是`GZip.jl` 和   `CodecZlib.jl`。
+### Julia 里面有两个解析Gzip的包，分别
+是`GZip.jl` 和 `CodecZlib.jl`。
 
 我们分别来测试一下
 
@@ -81,9 +82,11 @@ end
 
 ### 结论：
 
-Julia语言使用GZip包的时候，速度要慢于shell，快于python；
-使用CodecZlib的时候，速度快于shell 和 python。但是整体时间来看，最快的比最慢的也就快0.1s，这也就意味着，即使是要解压10000个文件，Julia也就比python快16分钟而已。这个在巨大的解压用时面前，并不算什么。
+Julia语言使用GZip包的时候，速度要慢于shell，快于python；使用CodecZlib的时候，
+速度快于shell 和 python。但是整体时间来看，最快的比最慢的也就快0.1s，
+这也就意味着，即使是要解压10000个文件，Julia也就比python快16分钟而已。
+这个在巨大的解压用时面前，并不算什么。
 
 
-数据文件可从我的github 获取 
-(link)[https://github.com/panxiaoguang/crisproff_jl/tree/main/test_Gzip_parse_time]
+数据文件可从我的github获取
+[link](https://github.com/panxiaoguang/crisproff_jl/tree/main/test_Gzip_parse_time)

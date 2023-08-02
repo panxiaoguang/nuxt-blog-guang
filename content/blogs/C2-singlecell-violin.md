@@ -13,7 +13,7 @@ Python的`Scanpy`包和`Seurat`包一样，是单细胞数据处理的利器，�
 
 首先来展示以下画图的成果，如图
 
-![](https://s3.ax1x.com/2021/01/21/s4ZmSe.png){width=220px height=300px}
+![](https://s3.ax1x.com/2021/01/21/s4ZmSe.png)
 
 那么直接上命令吧！
 
