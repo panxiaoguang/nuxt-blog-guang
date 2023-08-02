@@ -11,7 +11,7 @@ published: true
 
 单细胞数据数据量很大，加重了分析的负担，但只要掌握好的方法和工具，就可以无往而不利。今年要说的这个如题，是因为在区分亚类的时候，提取了大类型并调整分辨率重新聚类计算的亚类。针对这种情况，该如何实现呢？
 
-![]("https://b2.kuibu.net/file/imgdisk/2020/02/25/hhhf9415472fee3122a.png)
+![](https://b2.kuibu.net/file/imgdisk/2020/02/25/hhhf9415472fee3122a.png)
 
 ### 问题分析
 
@@ -70,7 +70,7 @@ DotPlot(endo,features=unique(markers),cols=c("white","red"))+
 ```
 #### 图形如下：
 
-![]("https://cdn.webchain.site/file/imgdisk-2/2020/02/25/fanxiangxiu_testplot210c602efe7077fb.png)
+![](https://cdn.webchain.site/file/imgdisk-2/2020/02/25/fanxiangxiu_testplot210c602efe7077fb.png)
 
 ### 另外的图？
 
@@ -103,4 +103,4 @@ DimPlot(endo,reduction="umap",group.by="new_id",cols=colorRampPalette(brewer.pal
 ggsave("dimplot_for_newlable.png",width=7,height=4,dpi=300)
 ```
 
-![](src="https://cdn.webchain.site/file/imgdisk-2/2020/02/25/dimplot_for_newlable24bbb822695a47ac2.png)
+![](https://cdn.webchain.site/file/imgdisk-2/2020/02/25/dimplot_for_newlable24bbb822695a47ac2.png)
