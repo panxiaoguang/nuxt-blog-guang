@@ -7,6 +7,11 @@ useHead({
       content:
         '潘晓光的个人博客，分享，生物信息学和编程经验，记录生活点滴',
     },
+    {
+      name: 'baidu-site-verification',
+      content:
+        'codeva-ZVa7RA3e6R',
+    },
   ],
   titleTemplate: '晓寒月色 - %s',
 })

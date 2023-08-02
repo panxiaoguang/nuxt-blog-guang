@@ -68,7 +68,7 @@ Transcripts Per Kilobase of exonmodel per Million mapped reads (每千个碱基�
 
 TPM (推荐软件，RSEM) 的计算公式：
 
-$$TPMi=\;\frac{(\;Ni/Li\;)\ast1000000 {\;SUM(\;Ni/Li+\dots\dots..+\;Nm/Lm\;)}$$
+$$TPM=\frac{N_i/L_i*10^6}{sum(N_1/L_1+N_2/L_2+··+N_n/L_n)}$$
 
 
 **Ni**：mapping到基因i上的read数；
@@ -121,7 +121,7 @@ df<-df%>%mutate(Ratio=readCount/length)%>%
 ```
 这样就可以简单的计算TPM了，但是这里的并非准确的TPM值，因为我们需要的TPM的length为有效长度而非转录本的长度，而
 
-\EffLength=\feature Length - \average fragment length +1
+$$EffLength=feature Length - average fragment length +1$$
 
 当然这里的有效长度依然是估计，所以我们需要使用额外的软件去计算插入长度，从而求得片段长度。例如`picard`
 
