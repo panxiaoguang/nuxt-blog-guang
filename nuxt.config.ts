@@ -4,9 +4,9 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width,initial-scale=1',
-      title: 'Riyad\'s Blog',
-      titleTemplate: '%s - Riyad\'s Blog',
-      meta: [{ name: 'description', content: 'Riyad\'s awesome blog' }],
+      title: '晓寒月色',
+      titleTemplate: '%s - 晓寒月色',
+      meta: [{ name: 'description', content: '生物信息技术博客' }],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
@@ -46,5 +46,13 @@ export default defineNuxtConfig({
     highlight: {
       theme: 'dracula',
     },
-  },
+    markdown: {
+      remarkPlugins: [
+        'remark-math',
+      ],
+      rehypePlugins: [
+        'rehype-mathjax',
+      ]
+    }
+  }
 })

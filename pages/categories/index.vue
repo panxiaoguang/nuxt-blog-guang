@@ -2,32 +2,32 @@
 import { makeFirstCharUpper } from '@/utils/helper'
 
 const topics = [
-  'javascript',
-  'typescript',
-  'git',
-  'docker',
-  'kubernetes',
-  'vue',
-  'nuxt',
-  'pinia',
-  'vuex',
-  'firebase',
-  'supabse',
-  'cypress',
-  'vercel',
-  'namecheap',
+  '生物信息',
+  '基因编辑',
+  '单细胞测序',
+  '转录组',
+  '基因组',
+  'R语言',
+  'Python',
+  'Julia',
+  '生信软件',
+  '随笔',
+  '文献阅读',
+  '前端',
+  '后端',
+  '机器学习',
 ]
 
 useHead({
-  title: 'Categories',
+  title: '分类',
   meta: [
     {
       name: 'description',
       content:
-        'Blow All the topics are listed on which either I have written a blog or will write a blog in near future.',
+        '这里是所有的主题分类',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: '晓寒月色 - %s',
 })
 </script>
 

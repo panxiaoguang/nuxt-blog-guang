@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 const { data } = await useAsyncData('home', () => queryContent('/blogs').sort({ _id: -1 }).find())
-
 const formatedData = computed(() => {
   return data.value?.map((articles) => {
     return {
@@ -18,14 +17,14 @@ const formatedData = computed(() => {
 })
 
 useHead({
-  title: 'Archive',
+  title: '博客概览',
   meta: [
     {
       name: 'description',
-      content: 'Here you will find all the blog posts I have written & published on this site.',
+      content: '这里你将看到所有的博客文章',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: '晓寒月色 - %s',
 })
 </script>
 

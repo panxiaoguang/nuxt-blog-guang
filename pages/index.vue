@@ -1,14 +1,14 @@
 <script lang="ts" setup>
 useHead({
-  title: 'Home',
+  title: '主页',
   meta: [
     {
       name: 'description',
       content:
-        'Welcome To My Blog Site. Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+        '潘晓光的个人博客，分享，生物信息学和编程经验，记录生活点滴',
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: '晓寒月色 - %s',
 })
 </script>
 

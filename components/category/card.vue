@@ -35,7 +35,7 @@ const picAColor = ref(`${color.at(getRandomInt(0, 8))}`)
   <div
     class="text-white px-5 py-3 rounded hover:underline randbgcolor hover:scale-[1.05] transition-all duration-500"
   >
-    <NuxtLink :to="`/categories/${title.toLocaleLowerCase()}`" class="text-xl font-extrabold">
+    <NuxtLink :to="`/categories/${title.toLocaleLowerCase()}`" class="text-xl">
       <h1>#{{ title }}</h1>
     </NuxtLink>
   </div>

@@ -42,7 +42,7 @@ useHead({
       content: `You will find all the ${category.value} related post here`,
     },
   ],
-  titleTemplate: 'Riyad\'s Blog - %s',
+  titleTemplate: '晓寒月色 - %s',
 })
 </script>
 

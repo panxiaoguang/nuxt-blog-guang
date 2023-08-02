@@ -1,19 +1,19 @@
 <template>
   <div class="flex flex-col my-5 md:my-0 md:justify-self-center">
-    <p class="text-black text-base font-semibold">
-      Quick Link
+    <p class="text-black text-base">
+      快速向导
     </p>
     <NuxtLink to="/" class="hover:underline">
-      Home
+      主页
     </NuxtLink>
     <NuxtLink to="/blogs" class="hover:underline">
-      Blogs
+      博客
     </NuxtLink>
     <NuxtLink to="/categories" class="hover:underline">
-      Categories
+      分类
     </NuxtLink>
     <NuxtLink to="/about" class="hover:underline">
-      About Me
+      关于
     </NuxtLink>
   </div>
 </template>

@@ -2,12 +2,11 @@
   <div class="container mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
       <div class="px-6">
-        <h1 class="text-black font-semibold leading-tight text-4xl md:text-5xl my-5">
-          Welcome To My Blog Site
+        <h1 class="text-black leading-tight text-4xl md:text-5xl my-5">
+          欢迎访问我的博客
         </h1>
         <p>
-          Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles,
-          Tips, Learning resources and more.
+          分享，生物信息学和编程经验，记录生活点滴
         </p>
       </div>
       <div class="px-6 justify-self-center">
