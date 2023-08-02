@@ -1,13 +1,10 @@
 <script setup>
 const description
-  = 'Riyad, Software Engineer at AppsCode working on ByteBuilders, with over 1.5 years experience in Frontend development.'
-const ogTitle
-  = 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving'
-const twitterDescription
-  = 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc'
+  = '生物信息博客，编程语言，分享知识，学习，教育'
+const ogTitle = '晓寒月色'
 const image
   = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
-const mySite = 'https://blog-nurriyad.vercel.app/'
+const mySite = 'https://xiaohanys.vercel.app/'
 useHead({
   htmlAttrs: {
     lang: 'en',
@@ -34,25 +31,6 @@ useHead({
     },
     {
       property: 'og:image',
-      content: image,
-    },
-    // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
-    { name: 'twitter:site', content: '@debs_obrien' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    {
-      name: 'twitter:url',
-      content: mySite,
-    },
-    {
-      name: 'twitter:title',
-      content: ogTitle,
-    },
-    {
-      name: 'twitter:description',
-      content: twitterDescription,
-    },
-    {
-      name: 'twitter:image',
       content: image,
     },
   ],
