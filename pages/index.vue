@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup>
 useHead({
   title: '主页',
   meta: [
@@ -15,6 +15,7 @@ useHead({
   ],
   titleTemplate: '晓寒月色 - %s',
 })
+
 </script>
 
 <template>

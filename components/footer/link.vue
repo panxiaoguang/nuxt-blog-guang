@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col my-5 md:my-0 md:justify-self-center">
-    <p class="text-black text-base">
+    <p class="text-black text-base font-semibold">
       快速向导
     </p>
     <NuxtLink to="/" class="hover:underline">

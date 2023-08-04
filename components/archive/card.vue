@@ -35,7 +35,7 @@ withDefaults(defineProps<Props>(), {
         />
       </div>
       <div class="sm:col-span-7 p-5">
-        <h2 class="text-xl text-black pb-1 group-hover:text-sky-700">
+        <h2 class="text-xl font-semibold text-black pb-1 group-hover:text-sky-700">
           {{ title }}
         </h2>
         <p class="text-ellipsis line-clamp-2">

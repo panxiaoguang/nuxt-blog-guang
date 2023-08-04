@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-black text-base">
+    <p class="text-black text-base font-semibold">
       与我联系
     </p>
     <p>

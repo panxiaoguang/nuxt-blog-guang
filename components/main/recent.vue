@@ -38,7 +38,7 @@ useHead({
     <div class="px-6">
       <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
         <Icon name="mdi:star-three-points-outline" size="2em" class="text-black" />
-        <h2 class="text-4xl text-black ">
+        <h2 class="text-4xl font-semibold text-black ">
           最近更新
         </h2>
       </div>

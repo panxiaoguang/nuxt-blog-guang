@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-black text-base py-1">
+    <p class="text-black text-base py-1 font-semibold">
       关于本站
     </p>
     <p class="py-2">

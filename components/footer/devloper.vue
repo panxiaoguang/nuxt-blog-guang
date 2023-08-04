@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-black text-2xl py-1">
+    <p class="text-black text-2xl py-1 font-semibold">
       小光amateur
     </p>
     <p class="py-2">

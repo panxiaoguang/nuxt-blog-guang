@@ -1,11 +1,11 @@
-<script setup lang="ts">
-const route = useRoute()
+<script setup>
 
+const route = useRoute()
 const path = computed(() => route.fullPath.replace('/', ''))
 </script>
 
 <template>
-  <div class="py-5 border-b">
+  <div class="py-5 border-b font-semibold">
     <div class="flex px-6 container max-w-5xl justify-between mx-auto items-baseline ">
       <ul class="flex items-baseline space-x-5">
         <li class="text-lg sm:text-2xl font-bold">
