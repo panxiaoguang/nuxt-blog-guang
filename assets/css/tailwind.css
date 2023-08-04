@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "echo";
+    font-weight: 400;
+    display: swap;
+    src: url("https://cdn.jsdelivr.net/gh/PGwind/blogfonts@master/HanTang.woff2") format("woff2");
+}

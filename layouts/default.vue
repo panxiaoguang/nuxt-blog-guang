@@ -1,7 +1,7 @@
 <template>
-  <div class="gd-container font-spacegrotesk">
+  <div class="gd-container font-echo">
     <header class="fixed w-full bg-white z-10">
-      <MainHeader/>
+      <MainHeader />
     </header>
     <main>
       <div class="p-9" />
