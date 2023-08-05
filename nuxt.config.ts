@@ -53,5 +53,11 @@ export default defineNuxtConfig({
         'rehype-mathjax',
       ]
     }
+  },
+  runtimeConfig: {
+    public: {
+      clientId: process.env.clientId,
+      clientSecret: process.env.clientSecret
+    }
   }
 })

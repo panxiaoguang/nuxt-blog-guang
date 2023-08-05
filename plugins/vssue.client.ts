@@ -5,6 +5,7 @@ import GithubV4 from '@vssue/api-github-v4'
 
 
 export default defineNuxtPlugin((nuxtApp) => {
+    const runtimeConfig = useRuntimeConfig()
     // Doing something with nuxtApp
     nuxtApp.vueApp.use(Vssue, {
         // 设置要使用的平台 api
@@ -13,7 +14,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         // 在这里设置你使用的平台的 OAuth App 配置
         owner: 'panxiaoguang',
         repo: 'panxiaoguang.github.io',
-        clientId: process.env.clientId,
-        clientSecret: process.env.clientSecret, // 只有在使用某些平台时需要
+        clientId: runtimeConfig.public.clientId,
+        clientSecret: runtimeConfig.public.clientSecret, // 只有在使用某些平台时需要
     })
 })
