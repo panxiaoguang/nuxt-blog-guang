@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "rehype-mathjax": "^4.0.3",
-    "remark-math": "^5.1.1"
+    "remark-math": "^5.1.1",
+    "vue-aplayer-next": "^1.0.1"
   }
 }

@@ -1,3 +1,6 @@
+<script setup>
+import aplayer from 'vue-aplayer-next'
+</script>
 <template>
   <div class="container mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
@@ -8,10 +11,19 @@
         <p>
           分享，生物信息学和编程经验，记录生活点滴
         </p>
-      </div>
-      <div class="px-6 justify-self-center">
-        <LogoDog />
-      </div>
+        <ClientOnly>
+          <div class="mt-5">
+            <aplayer autoplay :music="{
+              title: 'Wish',
+              artist: 'S.E.N.S.(神思者)',
+              src: 'http://www.iyinren.com/server/2/97887.mp3',
+              pic: 'https://picshack.net/ib/7HhaUKjMg1.jpg'
+            }" />
+          </div>
+        </ClientOnly>
+    </div>
+    <div class="px-6 justify-self-center">
+      <LogoDog />
     </div>
   </div>
-</template>
+</div></template>
