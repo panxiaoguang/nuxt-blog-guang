@@ -27,6 +27,8 @@
     "vue-content-loader": "^2.0.1"
   },
   "dependencies": {
+    "@liamrad/vssue-vue3": "^0.1.1",
+    "@vssue/api-github-v4": "^1.4.7",
     "rehype-mathjax": "^4.0.3",
     "remark-math": "^5.1.1",
     "vue-aplayer-next": "^1.0.1"
