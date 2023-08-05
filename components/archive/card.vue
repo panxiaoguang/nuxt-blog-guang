@@ -1,14 +1,14 @@
 <script lang="ts" setup>
 interface Props {
-  path: string
-  title: string
-  date: string
-  description: string
-  image: string
-  alt: string
-  ogImage: string
-  tags: Array<string>
-  published: boolean
+  path?: string
+  title?: string
+  date?: string
+  description?: string
+  image?: string
+  alt?: string
+  ogImage?: string
+  tags?: Array<string>
+  published?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
@@ -54,7 +54,7 @@ withDefaults(defineProps<Props>(), {
           </div>
         </div>
         <div class="flex group-hover:underline text-sky-700 items-center pt-2">
-          <p>阅读更多</p>
+          <p>Read More</p>
           <LogoArrow />
         </div>
       </div>
