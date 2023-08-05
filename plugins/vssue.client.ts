@@ -13,7 +13,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         // 在这里设置你使用的平台的 OAuth App 配置
         owner: 'panxiaoguang',
         repo: 'panxiaoguang.github.io',
-        clientId: 'd5bc952fcb2722c75255',
-        clientSecret: '24bf3c91cde09f7a4b66b664de2f96ad9bab77a8', // 只有在使用某些平台时需要
+        clientId: process.env.clientId,
+        clientSecret: process.env.clientSecret, // 只有在使用某些平台时需要
     })
 })
