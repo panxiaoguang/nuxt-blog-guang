@@ -31,6 +31,7 @@
     "@vssue/api-github-v4": "^1.4.7",
     "rehype-mathjax": "^4.0.3",
     "remark-math": "^5.1.1",
-    "vue-aplayer-next": "^1.0.1"
+    "vue-aplayer-next": "^1.0.1",
+    "vue3-social-share": "^0.1.7"
   }
 }

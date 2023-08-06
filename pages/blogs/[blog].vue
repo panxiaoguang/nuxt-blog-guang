@@ -61,6 +61,7 @@ useHead({
           </template>
         </ContentRenderer>
         <ClientOnly>
+          <BlogShare :path="path" :title="data.title" :description="data.description" :image="data.image" />
           <Vssue :title="articles.title" />
         </ClientOnly>
       </div>
@@ -69,3 +70,6 @@ useHead({
   </div>
 </template>
 
+<style scoped>
+
+</style>

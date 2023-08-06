@@ -2412,6 +2412,11 @@ cookies@~0.8.0:
     depd "~2.0.0"
     keygrip "~1.1.0"
 
+core-js@^3.6.5:
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.32.0.tgz#7643d353d899747ab1f8b03d2803b0312a0fb3b6"
+  integrity sha512-rd4rYZNlF3WuoYuRIDEmbR/ga9CeuWX9U05umAvgrrZoHY4Z++cp/xwPQMvUpBB4Ag6J8KfD80G0zwCyaSxDww==
+
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
@@ -7001,6 +7006,11 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
   integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
 
+qrcode.vue@^3.3.3:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/qrcode.vue/-/qrcode.vue-3.4.1.tgz#dd8141da9c4ea07ee56b111cd13eadf123af822a"
+  integrity sha512-wq/zHsifH4FJ1GXQi8/wNxD1KfQkckIpjK1KPTc/qwYU5/Bkd4me0w4xZSg6EXk6xLBkVDE0zxVagewv5EMAVA==
+
 qs@^6.6.0:
   version "6.11.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.2.tgz#64bea51f12c1f5da1bc01496f48ffcff7c69d7d9"
@@ -8784,7 +8794,16 @@ vue-router@^4.2.4:
   dependencies:
     "@vue/devtools-api" "^6.5.0"
 
-vue@^3.2.37, vue@^3.3.4:
+vue3-social-share@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/vue3-social-share/-/vue3-social-share-0.1.7.tgz#dcbda8ee410cf87184068703395b82db69f92e12"
+  integrity sha512-U7tEfFN/idXKW87dByWEabs878FNeGnZOvIT1riPePUairgrdh/hBRdkBK5BPDB5AVNz5VApHziWl3hgKShMFA==
+  dependencies:
+    core-js "^3.6.5"
+    qrcode.vue "^3.3.3"
+    vue "^3.0.0"
+
+vue@^3.0.0, vue@^3.2.37, vue@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.3.4.tgz#8ed945d3873667df1d0fcf3b2463ada028f88bd6"
   integrity sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==
