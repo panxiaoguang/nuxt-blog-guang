@@ -9,7 +9,7 @@ tags: ['Python','后端']
 published: true
 ---
 
-上一篇文章我们写了一个Streamlit的程序来全栈的执行我们的任务，但是我们也看到了它的一个缺点：**前端界面非异步，UI定制缺乏灵活性**。那么，我们接下来尝试采用**前后端分离**的方式来完成[上次](/blogs/C6-streamlit-data-app.md)的任务。
+上一篇文章我们写了一个Streamlit的程序来全栈的执行我们的任务，但是我们也看到了它的一个缺点：**前端界面非异步，UI定制缺乏灵活性**。那么，我们接下来尝试采用**前后端分离**的方式来完成[上次](/blogs/c6-streamlit-data-app)的任务。:dog: :+1:
 
 - 前端：Vue.js + Naive-UI + Vite + github page
 - 后端：Fastapi

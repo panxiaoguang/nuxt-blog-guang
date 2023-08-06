@@ -48,6 +48,7 @@ export default defineNuxtConfig({
     markdown: {
       remarkPlugins: [
         'remark-math',
+        'remark-emoji'
       ],
       rehypePlugins: [
         'rehype-mathjax',
