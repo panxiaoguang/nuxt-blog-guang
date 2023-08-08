@@ -6,7 +6,7 @@ const links = articles.body.toc.links
 </script>
 
 <template>
-  <div class="lg:col-span-3 sticky top-28 h-96  p-2 hidden lg:block  justify-self-end">
+  <div class="lg:col-span-3 sticky top-28 h-96  p-2 hidden lg:block  justify-self-end max-h-screen overflow-y-scroll">
     <h1 class="text-lg font-bold mb-4">
       Table Of Content
     </h1>
