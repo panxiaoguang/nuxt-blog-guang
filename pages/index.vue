@@ -8,6 +8,11 @@ useHead({
         '潘晓光的个人博客，分享，生物信息学和编程经验，记录生活点滴',
     },
     {
+      name: 'keywords',
+      content:
+        '生信, 生物信息, 博客, 基因组, 转录组, 宏基因组, 编程, pytho, R, 生物信息学',
+    },
+    {
       name: 'baidu-site-verification',
       content:
         'codeva-ZVa7RA3e6R',
